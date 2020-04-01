@@ -1,0 +1,454 @@
+.noticias.interior .main {
+    margin: 10px 0 10px 0px;
+    width: 69%;
+}
+.noticias.interior .main h1 a {
+    color: #cc0033;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.bread-crumb.step-back ul.icono{
+	position: relative;
+	width: calc(69% - 10px);
+	padding-right: 27px;
+}
+a.boticon {
+    font-family: 'icomoon';
+    position: absolute;
+    right: 0;
+    top: calc(50% - 11px);
+	font-size: 22px;
+	font-weight: normal;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0px 0 0 0;
+    border-radius: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(0,0,0);
+	text-decoration: none;
+	transform: scaley(-1);
+	opacity: 0.3;
+}
+a.boticon:hover {
+    opacity: 1;
+}
+.interior .main h1, .interior .main h2, .interior .main h3 {
+    color: #000000;
+    margin: 0 0 10px;
+    text-transform: none;
+	display:table;
+}
+.interior .main h1{
+	font-size: 26px;
+    line-height: 31px;
+	font-weight: 600;
+}
+.interior .main h2 {
+    font-size: 23px;
+    line-height: 27px;
+}
+.interior .main h3 {
+    color:#48494b;
+	font-size: 19px;
+    line-height: 23px;
+}
+.interior .main h1.rojo, .interior .main h2.rojo, .interior .main h3.rojo {
+    color:#cc0033;
+}
+.interior .main h1.verde, .interior .main h2.verde, .interior .main h3.verde {
+    color:#79A52D;
+}
+.interior .main h1.blanco, .interior .main h2.blanco, .interior .main h3.blanco {
+    color:#FFFFFF;
+}
+.interior .main p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 10px;
+	color:#000000;
+}
+.interior .main p strong {
+    display: inline;
+    line-height: 22px;
+}
+.interior .main p.fecha {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 10px;
+}
+.interior .main p.rojo {
+    color:#cc0033;
+}
+.interior .main p.verde {
+    color:#79A52D;
+}
+.interior .main p.blanco {
+    color:#FFFFFF;
+}
+.noticias.interior .main p a {
+	color:#cc0033;
+	text-decoration: underline;
+	font-weight: 500;
+}
+.noticias.interior .main p.rojo a{
+	color:#000000;
+}
+.interior .main .caja {
+    border: 5px solid #000;
+    padding: 20px;
+    border-radius: 0 15px 0 15px;
+}
+.interior .main .caja.roja {
+    border: 5px solid #cc0033;
+}
+.interior .main .caja.hierba {
+    border: 5px solid #79A52D;
+}
+.interior .main .fondo {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+.interior .main .fondo.red {
+    background-color:#FCD4DE;
+}
+.interior .main .fondo.green {
+    background-color:#79A52D;
+}
+.interior .main ul {
+    margin: 20px 0;
+	padding:0 0 0 30px;
+}
+.interior .main ul li {
+	list-style:circle;
+	font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 10px;
+}
+.interior .main ul.iconito li{
+list-style:none;
+position:relative;
+padding:0 0 0 0px;
+}
+.interior .main ul.iconito li:before {
+    color: #000000;
+    content: "";
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 10px;
+    left: 0;
+    margin: 0 10px 0 -20px;
+    position: relative;
+    top: 0;
+    width: 10px;
+}
+.interior .main ul.iconito.ley li:before {
+    position: absolute;
+    top: 0;
+	content: "";
+	font-family: "icomoon";
+	color:#cc0033;
+	font-size:16px;
+	width: 20px;
+	margin: 0 10px 0 -30px;	
+}
+.interior .main ul.iconito.ticks li:before{
+    content: "";
+	color: #79A52D;
+    font-family: "icomoon";
+	font-size:16px;
+	width: 20px;
+	margin: 0 10px 0 -30px;
+}
+.interior .main ul.iconito.balanza li:before{
+    content: "";
+	color: #000000;
+    font-family: "icomoon";
+	font-size:16px;
+	width: 20px;
+	margin: 0 10px 0 -30px;	
+}
+.interior .main ul.iconito.bombilla li:before{
+    content: "";
+    font-family: "icomoon";
+	font-size:21px;
+	width: 20px;
+	margin: 0 10px 0 -30px;	
+}
+.interior .main ul.iconito.clip li:before{
+    content: "";
+    font-family: "icomoon";
+	font-size:16px;
+	width: 20px;
+	margin: 0 10px 0 -30px;	
+}
+.interior .main ul.iconito.energia li:before{
+    content: "";
+    font-family: "icomoon";
+	font-size:16px;
+	width: 20px;
+	margin: 0 10px 0 -30px;	
+}
+.interior .main ol {
+    margin: 20px 0;
+    padding: 0 0 0 30px;
+}
+.interior .main ol li {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 10px;
+}
+.interior .main ul.caja {
+    margin: 20px 0;
+    padding: 30px 50px 20px 50px;
+}
+.interior .main p.piefoto {
+    border-bottom: 1px solid #acabab;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 10px;
+    margin: 0 0 10px;
+    color: #000000;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.interior .main p.piefoto strong {
+    display: inline;
+}
+.interior .main span.foto {
+	width:100%;
+	margin:0 0 20px 0;
+	display:table;
+}
+.interior .main img {
+    height: auto;
+    width: 100%;
+}
+.interior .main span.foto.dos {
+    display: table;
+    float: left;
+    margin: 0 1% 20px 1%;
+    width: 48%;
+}
+.interior .main span.foto.tres {
+    display: table;
+    float: left;
+    margin: 0 1% 20px 1%;
+    width: 31%;
+}
+.interior .main span.foto.dos.izquierda {
+    display: table;
+    float: left;
+    margin: 8px 2% 0px 0;
+    width: 48%;
+}
+.interior .main ul span.foto.dos.izquierda {
+    margin: 8px 50px 0 0;
+}
+.interior .main span.foto.dos.derecha {
+    display: table;
+    float: right;
+    margin: 8px 0 0px 2%;
+    width: 48%;
+}
+.interior .main span.foto iframe {
+width:100%;
+height:442px;
+}
+.interior .main span.foto.dos iframe {
+width:100%;
+height:212px;
+}
+.interior .main span.foto.tres iframe {
+width:100%;
+height:137px;
+}
+.iconito span.foto{
+	position:relative;
+}
+.iconito:hover span.foto {
+	transform:none;
+}
+.interior .main a.butonazo {
+    transition: all 0.5s ease-in-out 0s;
+	background-color: #f2f2f2;
+    border-radius: 50px;
+    color: #000000;
+    display: table;
+    font-weight: 500;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+	font-size:18px;
+	line-height:22px;
+}
+.interior .main a.butonazo.rojo {
+    background-color: #cc0033;
+	color: #ffffff;
+}
+.interior .main a.butonazo.verde {
+    background-color: #79A52D;
+	color: #ffffff;
+}
+a.butonazo:hover{
+  box-shadow:0 0px 300px 0 rgba(0, 0, 0, 0.2) inset;
+}
+a.butonazo.iconcito:hover span{
+  transform: rotateY(180deg);
+} 
+.interior .main a.butonazo.dos {
+    display: table;
+    float: left;
+    margin: 0 2% 20px 0;
+    width: 48%;
+}
+.interior .main a.butonazo.iconcito {
+    padding: 10px 20px 10px 45px;
+	position: relative;
+}
+.interior .main a.butonazo.iconcito span {
+    transition: all 0.5s ease-in-out 0.5s;
+	border-radius: 100px;
+    font-size: 20px;
+    height: 24px;
+    line-height: 24px;
+    margin: -12px 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 24px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    font-weight: normal;
+    font-family: 'icomoon';
+    background-color: transparent;
+}
+.interior .main .activador .sharethis-inline-share-buttons {
+	margin: 0px 0px 0px 0px;
+    border-radius: 0 100px 100px 0;
+}
+.interior .main .activador #st-1 {
+    margin: 0px 0 -18px 0;
+	opacity: 0;
+}
+.interior .main .activador #st-1 .st-btn {
+    transition: all 0.5s ease-in-out 0.5s !important;
+	height: 0px;
+    line-height: 0px;
+    margin-right: 0px;
+    padding: 0 0px;
+}
+.interior .main .activador #st-1 .st-btn:hover {
+	opacity: 1;
+    top: 0px;
+    transform: rotateY(360deg);
+    box-shadow: 0 0 100px 0 rgba(0,0,0,0.3) inset;
+}
+.interior .main .activador #st-1 .st-btn > img {
+    transition: all 0.3s ease-in-out 0.5s !important;
+	height: 0px;
+    width: 0px;
+}
+.interior .main .activador {
+    border: 1px solid #55acee;
+    border-radius: 100px;
+    padding: 8px 15px 8px 45px;
+    margin: 0 10px 10px 0;
+    float: none;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: #55acee;
+}
+.interior .main .activador p {
+	transition: all 0.5s ease-in-out 0s;
+	font-size: 17px;
+    line-height: 20px;
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	color: #55acee;
+	overflow: hidden;
+	display: inline-block;
+	max-width: 200px;
+}
+.interior .main .activador.mostrar #st-1{
+	display: inline-block;
+	opacity: 1;
+	margin: 0px 0 0px 0;
+}
+.interior .main .activador.mostrar #st-1 .st-btn {
+	height: 32px;
+	line-height: 32px;
+	margin-right: 8px;
+	padding: 0 8px;
+}
+.interior .main .activador.mostrar #st-1 .st-btn > img {
+	height: 16px;
+	width: 16px;
+}
+.interior .main .activador.mostrar p {
+	max-width: 0px;
+	white-space: nowrap;
+}
+.interior .main .activador.mostrar {
+	transition: all 0.5s ease-in-out 0s;
+    padding: 3px 0px 8px 45px;
+}
+.interior .main .activador span {
+    transition: all 0.5s ease-in-out 0s;
+	border-radius: 100px;
+    font-size: 20px;
+    height: 24px;
+    line-height: 24px;
+    margin: -12px 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 24px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    font-weight: normal;
+    font-family: 'icomoon';
+    background-color: transparent;
+}
+.interior .main .activador:hover{
+box-shadow:0 0px 300px 0 rgba(0, 0, 0, 0.1) inset;
+}
+.interior .main .activador.mostrar:hover{
+box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0) inset;
+}
+.interior .main .activador:hover span {
+	transform:rotateY(180deg);
+}
+@media (max-width: 480px) {
+.noticias.interior .main {
+    margin: 10px 0 10px 0px;
+    width: 100%;
+}
+.bread-crumb.step-back ul.icono{
+	width: 100%;
+}
+.interior .main a.butonazo {
+ padding: 10px 10px;
+    font-size: 15px;
+    line-height: 18px;		
+}	
+.interior .main a.butonazo.dos {
+    border-radius: 25px; 
+}
+.interior .main a.butonazo.dos.iconcito {
+    padding: 35px 20px 10px 10px;
+    position: relative;
+}
+.interior .main a.butonazo.dos.iconcito span {
+    margin: 0px 10px 0 -12px;
+    left: 50%;
+    top: 10px;
+}	
+}

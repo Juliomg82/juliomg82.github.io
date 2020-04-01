@@ -1,0 +1,572 @@
+.bread-crumb .container-fluid .container {
+	padding: 5px
+}
+.bread-crumb ul {
+	margin: 1% 0;
+	padding: 0;
+	display: table
+}
+.bread-crumb ul li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0 5px
+}
+.bread-crumb ul.icono {
+	padding: 0 0 0 25px;
+	position: relative
+}
+.bread-crumb ul.icono li {
+	position: static
+}
+.bread-crumb ul li a {
+	text-decoration: none;
+	color: #000;
+	padding: 0;
+	margin: 0 5px 0 0;
+	text-align: left;
+	vertical-align: top
+}
+.bread-crumb ul li a:hover {
+	color: #c03
+}
+.bread-crumb ul li span {
+	font-family: icomoon;
+	font-size: 14px;
+	height: 22px;
+	left: 0;
+	line-height: 22px;
+	margin: -12px 0 0 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 22px;
+	font-style: normal;
+	color: #fff;
+	background-color: #000;
+	border-radius: 300px;
+	padding: 0
+}
+section.contacto {
+	overflow: hidden;
+}
+section.contacto h2 {
+	font-size: 45px;
+	line-height: 48px;
+	color: #c03;
+	margin: 7% 0 15px 0
+}
+section.contacto p {
+	font-size: 20px;
+	line-height: 23px;
+	color: #000;
+	margin-bottom: 10px;
+	padding-left: 22px
+}
+section.contacto p.margen-foto {
+	padding-right: 315px
+}
+section.contacto p:last-of-type {
+	margin-bottom: 8%
+}
+section.contacto ul {
+	font-size: 20px;
+	line-height: 23px;
+	color: #000;
+	margin: 0;
+	padding: 10px 0 20px 50px;
+	list-style: none
+}
+section.contacto ul li::before {
+	content: '';
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	display: block;
+	background-color: #79a52d;
+	left: 0;
+	top: 8px;
+	border-radius: 100%;
+	line-height: 10px
+}
+section.contacto ul li {
+	margin: 0;
+	padding: 0 0 15px 18px;
+	position: relative
+}
+.pandoras-box {
+	display: block;
+	width: 100%;
+	box-shadow: 0 0 177px 0 rgba(0, 0, 0, .15);
+	margin: 0 0 20px 0;
+	padding: 35px 35px 15px 35px;
+	background-color: rgba(255, 255, 255, .9);
+	text-align: center;
+	min-height: 400px
+}
+section.contacto .pandoras-box p {
+	padding: 0
+}
+.pandoras-box h3 {
+	font-size: 35px;
+	line-height: 38px
+}
+.separador-horizontal {
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+	min-height: 68px;
+	opacity: .2;
+	margin: 0 0 30px 0
+}
+.separador-horizontal span {
+	font-family: icomoon;
+	font-size: 58px;
+	height: 68px;
+	line-height: 69px;
+	margin: -34px 0 0 -34px;
+	text-align: center;
+	width: 68px;
+	font-style: normal;
+	color: #000;
+	font-weight: 400;
+	border-radius: 500px;
+	padding: 0;
+	background-color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2
+}
+.separador-horizontal span.minie {
+	font-size: 50px;
+	width: 88px;
+	margin: -34px 0 0 -44px
+}
+.separador-horizontal img {
+	width: 100%;
+	height: 10px;
+	display: block;
+	top: 50%;
+	position: absolute;
+	margin: -5px 0 0 0;
+	z-index: 1
+}
+section.contacto .pandoras-box .sello-precio-circulo-fino p.antes {
+	color: #000;
+	font-size: 12px;
+	line-height: 9px;
+	margin-bottom: 0
+}
+.pandoras-box .sello-precio-circulo-ancho {
+	float: right;
+	transform: rotate(15deg) scale(.9, .9);
+	margin: -65px -70px 0 12px
+}
+.butones {
+	transition: all .5s ease-in-out 0s;
+	border: 2px solid transparent;
+	position: relative;
+	border-radius: 100px;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 21px;
+	margin: 5px 5px;
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+	color: #000
+}
+[class*=" gris"],
+[class^=gris] {
+	background-color: #f1f1f1;
+	font-weight: 400
+}
+[class*=" blanco"],
+[class^=blanco] {
+	background-color: #fff
+}
+[class*=" azul"],
+[class^=azul] {
+	background-color: #fff
+}
+.butones.verde {
+	background-color: #79a52d;
+	color: #fff
+}
+.butones.verde:hover {
+	color: #fff
+}
+.butones.verdeb {
+	border: 2px solid #79a52d;
+	color: #79a52d
+}
+.butones.verdeb:hover {
+	color: #79a52d
+}
+.butones.blancob,
+.butones.grisb {
+	border: 2px solid #ccc
+}
+.butones.azulb {
+	border: 2px solid #55acee;
+	color: #55acee
+}
+.butones.azulb p {
+	color: #55acee
+}
+.butones.azulb:hover {
+	color: #55acee
+}
+.butones:hover {
+	text-decoration: none;
+	box-shadow: 0 0 100px 0 rgba(0, 0, 0, .2) inset;
+	color: #000;
+	outline: 0
+}
+.butones:focus,
+.butones:hover {
+	outline: 0;
+	outline: 0 auto -webkit-focus-ring-color;
+	outline-offset: 0;
+	box-shadow: 0 0 100px 0 rgba(0, 0, 0, .2) inset;
+	text-decoration: none
+}
+.butones:hover span {
+	transition: all .5s ease-in .5s;
+	transform: rotateY(180deg)
+}
+.butones span.calling {
+	transition: all .5s ease-out 0s;
+	transform: rotate(135deg)
+}
+.butones:hover span.calling {
+	transition: all .3s ease-in 0s;
+	transform: rotate(0)
+}
+.butones.grisb:focus {
+	color: #000
+}
+.butones.s {
+	padding: 15px 15px 15px 39px
+}
+.butones span {
+	transition: all .3s ease-out 0s;
+	border-radius: 100px;
+	font-size: 20px;
+	height: 34px;
+	line-height: 34px;
+	margin: -17px 0 0 0;
+	padding: 0;
+	text-align: center;
+	width: 34px;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	font-weight: 400;
+	font-family: icomoon
+}
+.butones span.rojo {
+	color: #c03
+}
+.butones span img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 6px;
+	display: block
+}
+.pandoras-box .sello-precio-circulo-ancho p:last-of-type {
+	margin-bottom: 0
+}
+.pandoras-box .butones {
+	font-size: 18px;
+	line-height: 21px
+}
+.personaje {
+	position: absolute;
+	right: -58%;
+	top: -60%;
+	margin: 0;
+	padding: 0;
+	z-index: -1
+}
+.up-bg {
+    padding-top: 20%;
+    background-position: top center;
+    padding-bottom: 50px;
+}
+.fondo {
+    width: 100%;
+	height: auto;
+	z-index: -1;
+}
+.escritorio {
+	display: block
+}
+.mobile {
+	display: none
+}
+.pandoras-box.mapita {
+	padding: 0;
+	position: relative;
+	min-height: 487px
+}
+.pandoras-box.mapita .container-fluid {
+	padding: 0;
+	margin: 0;
+	height: 437px;
+	position: static
+}
+.pandoras-box.mapita iframe {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 392px
+}
+.horario-att {
+	background-color: #fff;
+	margin: 0;
+	padding: 15px;
+	text-align: left;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: table;
+	box-sizing: border-box
+}
+section.contacto .horario-att p:last-of-type {
+	margin: 0;
+	font-size: 17px
+}
+section.contacto .horario-att .text-center {
+	margin: 0;
+	padding: 0
+}
+.activador {
+	border: 1px solid #55acee;
+	border-radius: 100px;
+	padding: 8px 15px 8px 45px;
+	margin: 0 10px 0 0;
+	float: right;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	color: #55acee
+}
+.activador p {
+	transition: all .5s ease-in-out 0s;
+	font-size: 17px;
+	line-height: 20px;
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	color: #55acee;
+	overflow: hidden;
+	display: inline-block;
+	max-width: 200px
+}
+.activador span {
+	transition: all .5s ease-in-out 0s;
+	border-radius: 100px;
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	margin: -12px 10px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 24px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	font-weight: 400;
+	font-family: icomoon;
+	background-color: transparent
+}
+.activador:hover {
+	box-shadow: 0 0 300px 0 rgba(0, 0, 0, .1) inset
+}
+.activador:hover span {
+	transform: rotateY(180deg)
+}
+.activador a {
+	transition: all .5s ease-in-out .5s;
+	background-color: #fff;
+	overflow: hidden;
+	max-width: 0;
+	max-height: 0;
+	border: 0;
+	position: relative;
+	right: 0;
+	white-space: nowrap;
+	display: inline-block;
+	font-family: icomoon;
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 200px;
+	float: none;
+	margin: 0 0;
+	padding: 0;
+	text-decoration: none;
+	color: #55acee
+}
+.activador.mostrar {
+	overflow: hidden;
+	transition: all .5s ease-in-out 0s;
+	padding: 5px 15px 2px 45px;
+	background-color: #f2f2f2
+}
+.activador.mostrar p {
+	max-width: 0;
+	white-space: nowrap
+}
+.activador.mostrar a {
+	max-width: 40px;
+	max-height: 40px;
+	border: 2px solid #fff;
+	margin: 0 3px;
+	line-height: 35px
+}
+.activador.mostrar a:last-of-type {
+	font-size: 25px;
+	line-height: 36px
+}
+.activador a:hover {
+	transition: all .3s ease-in-out .5s;
+	background-color: #fff;
+	transform: rotateY(360deg)
+}
+.activador.mostrar:hover {
+	box-shadow: 0 0 0 0 transparent inset
+}
+.activador.mostrar:hover a.facebook {
+	color: #3b5998
+}
+.activador.mostrar:hover a.twitter {
+	color: #1da1f2
+}
+.activador.mostrar:hover a.linkedin {
+	color: #0073b0
+}
+.activador.mostrar:hover a.whatsapp {
+	color: #01e675
+}
+.follower-ctc {
+	display: none
+}
+@media (max-width: 480px) {
+	.mobile {
+		display: block
+	}
+	.escritorio {
+		display: none
+	}
+	section.contacto .container {
+		padding-right: 0;
+		padding-left: 0
+	}
+	section.contacto h2 {
+		font-size: 38px;
+		line-height: 41px;
+		text-align: center;
+		margin: 0 0 15px 0
+	}
+	section.contacto p {
+		font-size: 18px;
+		line-height: 21px;
+		padding-left: 0;
+		text-align: center
+	}
+	section.contacto p.margen-foto {
+		padding-right: 0
+	}
+	section.contacto ul {
+		font-size: 18px;
+		line-height: 21px
+	}
+	.personaje {
+		right: 0;
+		top: 10px;
+		width: 100%;
+		height: auto
+	}
+	.pandoras-box h3 {
+		margin-top: 0
+	}
+	section.contacto .pandoras-box p {
+		margin-bottom: 5%
+	}
+	.pandoras-box.mapita {
+		min-height: 1px
+	}
+	.pandoras-box.mapita .container-fluid {
+		height: auto
+	}
+	.pandoras-box.mapita iframe {
+		height: 199px
+	}
+	.horario-att {
+		text-align: center;
+		position: relative
+	}
+	.activador {
+		margin: 0 auto 10px;
+		float: none
+	}
+	.pandoras-box.right {
+		margin: 76% 0 20px 0;
+		padding: 0 15px 15px 15px
+	}
+	.pandoras-box.right.sinimagen {
+		margin: 0 0 20px 0;
+	}
+	.pandoras-box.right.sinsello {
+		padding: 35px 15px 15px 15px
+	}
+	.pandoras-box .sello-precio-circulo-ancho {
+		transform: rotate(0) scale(.9, .9);
+		margin: -70px auto 0;
+		float: none
+	}
+	.separador-horizontal {
+		margin: 0 0 10px 0
+	}
+	.up-bg {
+    padding-top: 50%;
+    background-position: top center;
+    background-size: 170% auto;
+    background-repeat: no-repeat;
+    background-color: 
+    rgba(0,0,0,0.9);
+	}
+	.up-bg .pandoras-box{
+		min-height: 300px;
+	}
+	.butones.pegao {
+    background-color: #79a52d;
+	position: fixed;
+	bottom: 0;
+	width: 96%;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	border-radius: 15px 15px 0 0;
+	z-index: 1;
+	color:#fff;
+	box-shadow: 0 -5px 5px 0 rgba(0,0,0,0.2);
+    left: 2%;
+	}
+	.butones.pegao:hover {
+	color: #ffffff;
+	box-shadow: 0 -5px 5px 0 rgba(0,0,0,0.2), 0 0 100px 0 rgba(0, 0, 0, .2) inset;
+	}
+}
