@@ -1,0 +1,76 @@
+.contigo .modal-content {
+    border-radius: 0 0 10px 10px;
+    border: 5px solid #c03;
+}
+.contigo .modal-header {
+    min-height: 1px;
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+	background-color: aqua;
+}
+.contigo .close{
+	opacity: 0.3;
+}
+.contigo .close:hover {
+    opacity: 1;
+    color: #000000;
+}
+.contigo{
+	text-align:center;
+}
+.contigo h3, .contigo h4{
+	text-align:left;
+}
+.contigo h3 {
+    color: #cc0033;
+    font-size: 35px;
+    line-height: 36px;
+	margin: 20px 0 5px 0;
+	padding: 0;
+	letter-spacing: 0.1px;
+}
+.contigo h4 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 22px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+.contigo p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 21px;
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-align: left;
+}
+.contigo .rojo{
+	color:#cc0033;
+}
+.contigo .fondo {
+    background-color: rgba(0,0,0,0.1);
+	padding:30px 20px;
+	margin: 30px 0;
+}
+.contigo a{
+	border:2px solid #cc0033;
+	padding: 12px 15px 14px 15px;
+	text-transform: uppercase;
+	margin: 10px 10px 10px 10px;
+	background-color:transparent;
+	border-radius: 100px;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 500;
+	color:#cc0033;
+}
+.contigo a:hover{
+	box-shadow: 0 0 100px 0 rgba(0,0,0,0.1) inset;
+}
+.contigo .fondo a{
+	background-color:#cc0033;
+	color:#fff;
+	margin: 5px 10px 0px 10px;
+}
