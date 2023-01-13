@@ -1842,6 +1842,23 @@ h1 .logo {
     height: auto;
 	width:100%;
 }
+.logo {
+    height: 30px;
+}
+.informacion-principal h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.informacion-principal h2:after {
+    margin: 15px 0 0;
+}
+footer img {
+    margin: 0 0px;
+}
+a.boton.very-big {
+    font-size: 30px;
+    line-height: 33px;
+}
 
 }
 @media (max-width: 320px) {
@@ -1851,4 +1868,12 @@ height:144px;
 .informacion-principal.video iframe {
     height:144px;
 }
+.mostrar-gotomenu.mostrar-ctf .gotomenu {
+    bottom: 106px;
+}
+.mostrar-gotomenu.mostrar-ctf.no-mostrar-ctf .gotomenu {
+    bottom: 10px;
+}
+
+
 }
