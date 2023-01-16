@@ -1103,7 +1103,7 @@ section {
 #header .profile .social-links a.whatsapp.whatsappLink.mobile, .contact .info a.whatsappLink.mobile{
   display: none ;
 }
-@only screen and (max-width:1024px){
+@only screen and (max-width:768px){
   #header .profile .social-links a.whatsapp.whatsappLink.desktop {
     display: none;
   }
