@@ -1,0 +1,735 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0;
+padding:0;
+position:relative;
+}
+img{
+width:100%;
+height: auto;
+margin:0;
+padding: 0;
+border: 0;
+display: block;
+}
+.menu-00 {
+    width: 3.8%;
+    height: 4.8%;
+    position: absolute;
+    right: 24.5%;
+    top: 5%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00b {
+    width: 3.8%;
+    height: 2.9%;
+    position: absolute;
+    right: 24.5%;
+    top: 3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00c {
+    width: 3.8%;
+    height: 3.6%;
+    position: absolute;
+    right: 24.5%;
+    top: 3.7%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00d {
+    width: 3.8%;
+    height: 4.4%;
+    position: absolute;
+    right: 24.5%;
+    top: 4.5%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00e {
+    width: 3.8%;
+    height: 2.3%;
+    position: absolute;
+    right: 24.5%;
+    top: 2.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00f {
+    width: 3.8%;
+    height: 2.5%;
+    position: absolute;
+    right: 24.5%;
+    top: 2.6%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00g {
+    width: 3.8%;
+    height: 4.7%;
+    position: absolute;
+    right: 24.5%;
+    top: 4.9%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00h {
+    width: 3.8%;
+    height: 4.3%;
+    position: absolute;
+    right: 24.5%;
+    top: 4.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00i {
+    width: 3.8%;
+    height: 2.9%;
+    position: absolute;
+    right: 24.5%;
+    top: 2.9%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00j {
+    width: 3.8%;
+    height: 3.4%;
+    position: absolute;
+    right: 24.5%;
+    top: 3.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-00k {
+    width: 3.8%;
+    height: 2.2%;
+    position: absolute;
+    right: 24.5%;
+    top: 2.1%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-01 {
+    border-radius: 100%;
+    width: 7.8%;
+    height: 13.9%;
+    position: absolute;
+    right: 68.8%;
+    top: 27.1%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-02 {
+    border-radius: 100%;
+    width: 7.8%;
+    height: 13.9%;
+    position: absolute;
+    right: 57.4%;
+    top: 27.1%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-03 {
+    border-radius: 100%;
+    width: 7.8%;
+    height: 13.9%;
+    position: absolute;
+    right: 45.77%;
+    top: 27.1%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-04 {
+    border-radius: 100%;
+    width: 7.8%;
+    height: 13.9%;
+    position: absolute;
+    right: 68.8%;
+    top: 51%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-05 {
+    border-radius: 100%;
+    width: 7.8%;
+    height: 13.9%;
+    position: absolute;
+    right: 57.4%;
+    top: 51%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.menu-06 {
+    border-radius: 100%;
+    width: 7.8%;
+    height: 13.9%;
+    position: absolute;
+    right: 45.77%;
+    top: 51%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+
+
+.submenu-cerrar {
+    width: 2%;
+    height: 3.5%;
+    position: absolute;
+    right: 22.8%;
+    top: 16.5%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.submenu-video {
+    width: 3.5%;
+    height: 6.1%;
+    position: absolute;
+    right: 48.63%;
+    top: 50.03%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.cerrar-video {
+    width: 2%;
+    height: 3.5%;
+    position: absolute;
+    right: 26%;
+    top: 22.5%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+
+.descargar-dossier {
+    width: 15.6%;
+    height: 7.1%;
+    position: absolute;
+    right: 13.8%;
+    top: 78.2%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.submenu-01 {
+    border-radius: 100%;
+    width: 8.9%;
+    height: 15.7%;
+    position: absolute;
+    right: 61.45%;
+    top: 39.46%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.submenu-02 {
+    border-radius: 100%;
+    width: 8.9%;
+    height: 15.7%;
+    position: absolute;
+    right: 46%;
+    top: 17.9%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.submenu-03 {
+    border-radius: 100%;
+    width: 8.9%;
+    height: 15.7%;
+    position: absolute;
+    right: 30.4%;
+    top: 39.46%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.submenu-04 {
+    border-radius: 40px;
+    width: 21.5%;
+    height: 7.1%;
+    position: absolute;
+    right: 66.61%;
+    top: 78.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+}
+.siguiente-01 {
+    width: 10.4%;
+    height: 5.7%;
+    position: absolute;
+    right: 50.9%;
+    top: 81.6%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-02 {
+    width: 10.4%;
+    height: 5.7%;
+    position: absolute;
+    right: 65%;
+    top: 81.6%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-03 {
+    width: 10.4%;
+    height: 3.5%;
+    position: absolute;
+    right: 23.2%;
+    top: 87.9%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-04 {
+    width: 10.4%;
+    height: 4.2%;
+    position: absolute;
+    right: 30.15%;
+    top: 85.2%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-05 {
+    width: 10.5%;
+    height: 5.3%;
+    position: absolute;
+    right: 39%;
+    top: 62.6%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-06 {
+    width: 10.4%;
+    height: 5.7%;
+    position: absolute;
+    right: 40.27%;
+    top: 82.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-07 {
+    width: 10.5%;
+    height: 2.7%;
+    position: absolute;
+    right: 42.2%;
+    top: 91.4%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-08 {
+    width: 10.5%;
+    height: 3.1%;
+    position: absolute;
+    right: 48.5%;
+    top: 84.4%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-09 {
+    width: 10.5%;
+    height: 5.7%;
+    position: absolute;
+    right: 44.27%;
+    top: 73.7%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-10 {
+    width: 10.5%;
+    height: 4.9%;
+    position: absolute;
+    right: 27.9%;
+    top: 77.2%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-11 {
+    width: 10.5%;
+    height: 3.4%;
+    position: absolute;
+    right: 40.2%;
+    top: 79.8%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-12 {
+    width: 10.5%;
+    height: 3.9%;
+    position: absolute;
+    right: 38.5%;
+    top: 84.4%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.siguiente-13 {
+    width: 10.5%;
+    height: 2.5%;
+    position: absolute;
+    right: 49.8%;
+    top: 89.08%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 40px;
+}
+.protagonista-01 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 70.8%;
+    top: 50.9%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.protagonista-02 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 7.19%;
+    top: 55.49%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.protagonista-03 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 72.4%;
+    top: 36%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.protagonista-04 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 29.4%;
+    top: 39.7%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.protagonista-05 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 61.3%;
+    top: 61.4%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.protagonista-06 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 89.5%;
+    top: 65.9%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.protagonista-07 {
+    width: 1.5%;
+    height: 2.6%;
+    position: absolute;
+    right: 13.3%;
+    top: 41%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-01 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 19.68%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-02 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 21.89%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-03 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 24.93%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-04 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 60.01%;
+    top: 33.8%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-05 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 60.01%;
+    top: 36%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-06 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 60.01%;
+    top: 40.03%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-07 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 59.86%;
+    top: 50.5%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-08 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 59.86%;
+    top: 55.54%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-09 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 59.86%;
+    top: 57.72%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-10 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 63.84%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-11 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 65.98%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-12 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 70.1%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-13 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 79.28%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-14 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 81.44%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.respuesta-15 {
+    width: 1.5%;
+    height: 1.2%;
+    position: absolute;
+    right: 75.04%;
+    top: 85.51%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.video-flotante {
+    position: absolute;
+    left: 50%;
+    top: 30.78%;
+    margin: 0 0 0 -25%;
+    padding: 0;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    z-index: 100;
+    right: 50%;
+}
+.ancla01 {
+    width: 3%;
+    height: 2.5%;
+    position: absolute;
+    right: 78%;
+    top: 16.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.ancla02 {
+    width: 3%;
+    height: 2.5%;
+    position: absolute;
+    right: 62.7%;
+    top: 29.3%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.ancla03 {
+    width: 3%;
+    height: 2.5%;
+    position: absolute;
+    right: 62.7%;
+    top: 43.6%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.ancla04 {
+    width: 3%;
+    height: 2.5%;
+    position: absolute;
+    right: 77.9%;
+    top: 60.6%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
+.ancla05 {
+    width: 3%;
+    height: 2.5%;
+    position: absolute;
+    right: 77.9%;
+    top: 74.8%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: 99;
+    border-radius: 100%;
+}
