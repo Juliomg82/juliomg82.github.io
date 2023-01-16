@@ -1099,3 +1099,21 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+#header .profile .social-links a.whatsapp.whatsappLink.mobile, .contact .info a.whatsappLink.mobile{
+  display: none ;
+}
+@only screen and (max-width:1024px){
+  #header .profile .social-links a.whatsapp.whatsappLink.desktop {
+    display: none;
+  }
+  #header .profile .social-links a.whatsapp.whatsappLink.mobile{
+    display: inline;
+  }
+  .contact .info a.whatsappLink.desktop{
+    display: none;
+  }
+  .contact .info a.whatsappLink.mobile{
+    display: inline;
+  }
+}
