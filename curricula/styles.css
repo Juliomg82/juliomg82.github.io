@@ -180,6 +180,11 @@ a:hover {
   transition: all 0.2s ease;
   user-select: none;
 }
+.lang-label:hover {
+  background-color: var(--color-white);
+  color: var(--color-charcoal);
+  box-shadow: none;
+}
 
 #lang-es:checked ~ .cv-card .flag-es { display: block; }
 #lang-en:checked ~ .cv-card .flag-en { display: block; }
@@ -188,7 +193,7 @@ a:hover {
 #lang-en:checked ~ .cv-card .lang-label[for="lang-en"] {
   background-color: var(--color-white);
   color: var(--color-charcoal);
-  box-shadow: 0 1px 3px var(--color-black-15);
+  box-shadow: none;
 }
 
 .cv-main {
@@ -830,6 +835,7 @@ body.is-editing .cv-job {
   padding-left: 24px;
   padding-right: 24px;
   width: calc(100% + 48px);
+  line-height: 1.3;
 }
 
 .form-group {
@@ -991,6 +997,35 @@ body.is-editing .cv-job {
 
 .cv-dialog--small {
   max-width: 420px;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 44px; /* Espacio reservado para el botón */
+}
+
+.btn-eye {
+  position: absolute;
+  right: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  color: #666; /* Puedes cambiar el color según tu diseño */
+  user-select: none;
+}
+
+.btn-eye:hover {
+  color: #000; /* Efecto hover opcional */
 }
 
 /* Responsive */

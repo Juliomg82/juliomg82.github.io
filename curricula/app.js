@@ -106,7 +106,11 @@ function switchLanguage(lang) {
   renderJobs();
 }
 
-// --- Modo Edición ---
+// ==========================================
+// UTILIDADES DE AUTENTICACIÓN Y SEGURIDAD
+// ==========================================
+
+// 1. Motor matemático SHA-256
 async function calcularSHA256(texto) {
   const msgBuffer = new TextEncoder().encode(texto);
   const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
@@ -114,16 +118,39 @@ async function calcularSHA256(texto) {
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
-// Variable global para capturar la contraseña que introduce el usuario
+// 2. Control del Modal de Contraseña con Ojo (Opción B)
 let passResolve = null;
 
 function openAuthModal() {
+  const dialog = document.getElementById('auth-modal');
   const input = document.getElementById('auth-pass');
+  const eyeBtn = document.getElementById('btn-toggle-show-pass');
+  const eyeIcon = document.getElementById('eye-icon');
+
+  // Resetear el campo y el icono al estado por defecto cada vez que se abre
   input.value = '';
-  document.getElementById('auth-modal').showModal();
+  input.type = 'password';
+  if (eyeIcon) eyeIcon.textContent = 'visibility';
+
+  if (eyeBtn && !eyeBtn.dataset.listenerAdded) {
+    eyeBtn.addEventListener('click', () => {
+      const isPassword = input.type === 'password';
+      
+      // Alternar tipo de input
+      input.type = isPassword ? 'text' : 'password';
+      
+      // Alternar el icono de Material Symbols
+      if (eyeIcon) {
+        eyeIcon.textContent = isPassword ? 'visibility_off' : 'visibility';
+      }
+    });
+    
+    eyeBtn.dataset.listenerAdded = 'true';
+  }
+
+  dialog.showModal();
   input.focus();
 
-  // Devolvemos una Promesa que se resolverá cuando el usuario le dé a "Entrar" o "Cancelar"
   return new Promise((resolve) => {
     passResolve = resolve;
   });

@@ -1343,20 +1343,27 @@
   </dialog>
 
   <dialog id="auth-modal" class="cv-dialog">
-    <form id="auth-form" method="dialog" onsubmit="confirmPassword(event)">
-      <h3>Activar Modo Edición</h3>
+  <form id="auth-form" method="dialog" onsubmit="confirmPassword(event)">
+    <h3>Activar Modo Edición</h3>
+    
+    <div class="form-group">
+      <label for="auth-pass">Contraseña *</label>
       
-      <div class="form-group">
-        <label for="auth-pass">Contraseña *</label>
-        <input type="password" id="auth-pass" required="" placeholder="Introduce tu contraseña...">
+      <div class="password-wrapper">
+        <input type="password" id="auth-pass" required placeholder="Introduce tu contraseña...">
+        
+        <button type="button" id="btn-toggle-show-pass" class="btn-eye" aria-label="Mostrar contraseña">
+          <span class="material-symbols-outlined" id="eye-icon">visibility</span>
+        </button>
       </div>
+    </div>
 
-      <div class="dialog-actions">
-        <button type="button" class="btn-cancel" onclick="closeAuthModal()">Cancelar</button>
-        <button type="submit" class="btn-save">Entrar</button>
-      </div>
-    </form>
-  </dialog>
+    <div class="dialog-actions">
+      <button type="button" class="btn-cancel" onclick="closeAuthModal()">Cancelar</button>
+      <button type="submit" class="btn-save">Entrar</button>
+    </div>
+  </form>
+</dialog>
 
   <script id="cv-data" type="application/json">{
   "es": {
