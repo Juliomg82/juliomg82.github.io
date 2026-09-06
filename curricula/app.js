@@ -107,10 +107,71 @@ function switchLanguage(lang) {
 }
 
 // --- Modo Edición ---
-function toggleEditMode() {
+async function calcularSHA256(texto) {
+  const msgBuffer = new TextEncoder().encode(texto);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Variable global para capturar la contraseña que introduce el usuario
+let passResolve = null;
+
+function openAuthModal() {
+  const input = document.getElementById('auth-pass');
+  input.value = '';
+  document.getElementById('auth-modal').showModal();
+  input.focus();
+
+  // Devolvemos una Promesa que se resolverá cuando el usuario le dé a "Entrar" o "Cancelar"
+  return new Promise((resolve) => {
+    passResolve = resolve;
+  });
+}
+
+function closeAuthModal() {
+  document.getElementById('auth-modal').close();
+  if (passResolve) {
+    passResolve(null); // Cancelado o cerrado sin enviar
+    passResolve = null;
+  }
+}
+
+function confirmPassword(event) {
+  event.preventDefault();
+  const val = document.getElementById('auth-pass').value;
+  document.getElementById('auth-modal').close();
+  
+  if (passResolve) {
+    passResolve(val); // Devolvemos el texto de la contraseña
+    passResolve = null;
+  }
+}
+
+async function toggleEditMode() {
+  const HASH_GUARDADO = "9da630899ba2c8ef5e29234245006b42379acc62b218510989a26c51d367edc3";
+
+  if (!editMode && sessionStorage.getItem('edit_granted') !== 'true') {
+    // Abrimos tu modal exactamente igual que el de Header
+    const pass = await openAuthModal();
+
+    if (pass !== null) {
+      const hashIngresado = await calcularSHA256(pass);
+      if (hashIngresado === HASH_GUARDADO) {
+        sessionStorage.setItem('edit_granted', 'true');
+      } else {
+        alert("Contraseña incorrecta.");
+        return;
+      }
+    } else {
+      return; // Le dio a Cancelar o pulsa ESC
+    }
+  }
+
+  // --- Tu código original intacto ---
   editMode = !editMode;
   document.body.classList.toggle('is-editing', editMode);
-  
+
   const btn = document.getElementById('btn-toggle-edit');
   if (btn) {
     btn.classList.toggle('active', editMode);

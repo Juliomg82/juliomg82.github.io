@@ -829,7 +829,7 @@ body.is-editing .cv-job {
   margin-left: -24px;
   padding-left: 24px;
   padding-right: 24px;
-  width: calc(100% + 3.5rem);
+  width: calc(100% + 48px);
 }
 
 .form-group {
@@ -917,7 +917,7 @@ body.is-editing .cv-job {
   margin-left: -24px;
   padding-left: 24px;
   padding-right: 24px;
-  width: calc(100% + 3.5rem);
+  width: calc(100% + 48px);
 }
 
 .btn-link {
