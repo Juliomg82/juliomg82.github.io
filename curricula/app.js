@@ -57,6 +57,7 @@ function switchLanguage(lang) {
   // Actualizar Títulos de Secciones
   if (data.sections) {
     const aboutTitle = document.getElementById('about-title');
+    const experienceTitle = document.getElementById('experience-title');
     const objectiveTitle = document.getElementById('objective-title');
     const techTitle = document.getElementById('tech-title-text');
     const modalityTitle = document.getElementById('modality-title-text');
@@ -64,6 +65,7 @@ function switchLanguage(lang) {
     const educationTitle = document.getElementById('education-title-text');
     const languagesTitle = document.getElementById('languages-title-text');
     if (aboutTitle) aboutTitle.textContent = data.sections.about_title;
+    if (experienceTitle) experienceTitle.textContent = data.sections.experience_title;
     if (objectiveTitle) objectiveTitle.textContent = data.sections.objective_title;
     if (techTitle) techTitle.textContent = data.sections.tech_title;
     if (modalityTitle) modalityTitle.textContent = data.sections.modality_title;
