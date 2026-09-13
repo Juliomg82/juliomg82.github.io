@@ -59,6 +59,17 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Recapcha google
+--------------------------------------------------------------*/
+.grecaptcha-badge{
+  transition: bottom 0.3s ease-in-out 0.5s!important;
+}
+body:has(.back-to-top.active) .grecaptcha-badge {
+    bottom: 70px !important;
+    transition: bottom 0.3s ease-in-out 0.5s!important;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
